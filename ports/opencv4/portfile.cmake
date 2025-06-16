@@ -22,6 +22,8 @@ vcpkg_from_github(
       0015-fix-freetype.patch
       0017-fix-flatbuffers.patch
       0019-opencl-kernel.patch
+      0020-cudaarithm-shared-linking.patch
+      0021-cudaimgproc-shared-linking.patch
 )
 
 vcpkg_find_acquire_program(PKGCONFIG)
